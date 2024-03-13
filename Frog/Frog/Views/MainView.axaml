@@ -1,0 +1,56 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Frog.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Frog.Views.MainView"
+             x:DataType="vm:MainViewModel">
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainViewModel />
+    </Design.DataContext>
+    <TabControl Loaded="OnLoaded">
+
+        <!-- WORLDS -->
+        <TabItem Header="Worlds">
+            <ListBox Name="WorldList" />
+        </TabItem>
+
+        <!-- WORLD BUILDER -->
+        <TabItem IsSelected="True" Header="World Builder">
+            <StackPanel Spacing="2" FlowDirection="LeftToRight">
+                <TextBlock FontWeight="DemiBold" FontSize="20">Domain</TextBlock>
+
+                <StackPanel Spacing="5">
+                    <TextBlock>Name</TextBlock>
+                    <TextBox></TextBox>
+
+                    <Grid ColumnDefinitions="100, 100, 100, 100">
+                        <StackPanel>
+                            <TextBlock>Domain Type</TextBlock>
+                            <ComboBox Width="90" Name="DomainType" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock>Water Source</TextBlock>
+                            <ComboBox Width="90" Name="WaterSource" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2">
+                            <TextBlock>Climate</TextBlock>
+                            <ComboBox Width="90" Name="Climate" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="3">
+                            <TextBlock>Elevation</TextBlock>
+                            <ComboBox Width="90" Name="Elevation" />
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </TabItem>
+
+    </TabControl>
+</UserControl>

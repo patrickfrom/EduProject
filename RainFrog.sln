@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatRace", "ACKonomics\RatRace.csproj", "{3A7FA63A-C44F-423A-B87C-60E8E6A7A6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frog", "Frog\Frog\Frog.csproj", "{6F73ED30-1904-4E15-AB99-5FD87FD7DF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frog.Desktop", "Frog\Frog.Desktop\Frog.Desktop.csproj", "{B2C4063F-C81D-4676-84BF-6F27179B277A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A7FA63A-C44F-423A-B87C-60E8E6A7A6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7FA63A-C44F-423A-B87C-60E8E6A7A6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7FA63A-C44F-423A-B87C-60E8E6A7A6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7FA63A-C44F-423A-B87C-60E8E6A7A6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F73ED30-1904-4E15-AB99-5FD87FD7DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F73ED30-1904-4E15-AB99-5FD87FD7DF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F73ED30-1904-4E15-AB99-5FD87FD7DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F73ED30-1904-4E15-AB99-5FD87FD7DF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C4063F-C81D-4676-84BF-6F27179B277A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C4063F-C81D-4676-84BF-6F27179B277A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C4063F-C81D-4676-84BF-6F27179B277A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C4063F-C81D-4676-84BF-6F27179B277A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
